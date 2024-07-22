@@ -37,6 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## FDFS
 
+```
 my-todo-app/
 ├─ src/
 │  ├─ components/ # 再利用可能なUIコンポーネント
@@ -49,3 +50,4 @@ my-todo-app/
 │  ├─ pages/ # ページコンポーネント
 │  └─ theme/ # MUIのカスタムテーマ
 └─ public/ # 静的ファイル
+```
