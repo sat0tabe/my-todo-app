@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## FDFS
+
+my-todo-app/
+├─ src/
+│  ├─ components/ # 再利用可能なUIコンポーネント
+│  ├─ features/ # 各機能ごとのフォルダ
+│  │  ├─ todo/
+│  │  │  ├─ components/ # Todo機能専用のコンポーネント
+│  │  │  ├─ hooks/ # Todo機能専用のReact hooks
+│  │  │  ├─ types.ts # Todo機能の型定義
+│  │  │  └─ index.tsx # Todo機能のメインファイル
+│  ├─ pages/ # ページコンポーネント
+│  └─ theme/ # MUIのカスタムテーマ
+└─ public/ # 静的ファイル
